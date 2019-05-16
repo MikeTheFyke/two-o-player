@@ -6,7 +6,7 @@ class Turn
     puts
     p "--- New Turn---"
     p "player #{player.player_number}: #{new_question.question}"
-    puts "Enter Answer : "
+    p "Enter Answer : "
     # Stores a players answer with gets.chomp
     answer = gets.chomp
     result = new_question.correct?(answer.to_i)

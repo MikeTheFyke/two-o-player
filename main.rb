@@ -1,9 +1,9 @@
-# 2. Define what files main will require
-require '.pry'
-require_relative './game.rb'
-require_relative './player.rb'
-require_relative './questions.rb'
-require_relative './turn.rb'
+
+require 'pry'
+require './game'
+require './player'
+require './question'
+require './turn'
 
 # Creates 2 new players
 player1 = Player.new(1)
